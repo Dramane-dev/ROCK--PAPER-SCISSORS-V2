@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../assets/img/rock-paper-scissors.png');
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.container {
+    width: 80%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    height: 55vh;
+    background-color: #192a56;
+}
+
+.score-screen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: wheat;
+    font-size: 80px;
+    text-align: center;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    color: wheat;
+    font-size: 50px;
+    text-align: left;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.buttons {
+    height: 60px;
+    width: 20%;
+    border-radius: 2px;
+    color: wheat;
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* tablet view */
+@media only screen and (max-width: 540px) {
+    .container {width: 100%;}
+}
+
+/* mobile view */
+@media only screen and (max-width: 380px) {
+    .container {
+        height: 65vh;
+    }
+
+    .buttons-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .buttons {
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: xx-large;
+        padding: 2px;
+    }
+
+    .buttons:hover {
+        background-color: whitesmoke;
+        color: black;
+        font-size: xx-large;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        width: 50%;
+    }
+}
