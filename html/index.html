@@ -16,15 +16,22 @@
     <body>
         <div class="container">
             <!-- Score Screen-->
-            <div class="score-screen">SCORE</div>
-            <div class="score">5 - 0</div>
+            <div class="score-screen"><p>Number of tour</p> <p id="tour">0</p></div>
+            <div id="score" class="score"><p id="player">0</p> &nbsp; - &nbsp; <p id="computer">0</p></div>
+            <div id="winner" class="winner"></div>
+
+            <!-- Replay button-->
+            <div class="replay-button">
+                <div id="replay" class="replay replay-disable">Replay</div>
+            </div>
 
             <!-- Buttons -->
-            <div class="buttons-container">
-                <div class="rock buttons">ROCK</div>
-                <div class="paper buttons">PAPER</div>
-                <div class="scissors buttons">SCISSORS</div>
+            <div id="buttons-container" class="buttons-container">
+                <div id="rock" class="buttons">ROCK</div>
+                <div id="paper" class="buttons">PAPER</div>
+                <div id="scissors" class="buttons">SCISSORS</div>
             </div>
         </div>
+        <script type="module" src="../js/script.js"></script>
     </body>
 </html>

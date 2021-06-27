@@ -21,7 +21,7 @@ body {
 .score-screen {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 5px;
     margin-left: 5px;
     color: wheat;
@@ -38,6 +38,57 @@ body {
     font-size: 50px;
     text-align: left;
 }
+
+.tour {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    color: wheat;
+    font-size: 35px;
+    text-align: left;
+}
+
+.winner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    color: wheat;
+    font-size: 35px;
+    text-align: left;
+}
+
+.replay-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.replay-disable {
+    display: none;
+}
+
+.replay {
+    height: 40px;
+    width: 20%;
+    border-radius: 2px;
+    color: wheat;
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.replay:hover {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
 
 .buttons-container {
     display: flex;
@@ -69,6 +120,10 @@ body {
 /* tablet view */
 @media only screen and (max-width: 540px) {
     .container {width: 100%;}
+
+    .buttons:hover {
+        width: 25%;
+    }
 }
 
 /* mobile view */
