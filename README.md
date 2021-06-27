@@ -1,4 +1,4 @@
-# ROCK PAPER SCISSORS 
+# ROCK PAPER SCISSORS V2
 
 ![alt text](https://github.com/Dramane-dev/ROCK-PAPER-SCISSORS/blob/master/rock-paper-scissors.webp?raw=true)
 
