@@ -6,6 +6,9 @@
 ## Features
 
 - Rock paper scissors game in js.
+- User interface in html / css.
+
+
 ## Technologies
 
 - JavaScript 
@@ -15,6 +18,8 @@
 
 L'application est Composé de 2 dossiers :
 
+- HTML  🟥
+- CSS  🟦
 - JAVASCRIPT  🟨
 
 
